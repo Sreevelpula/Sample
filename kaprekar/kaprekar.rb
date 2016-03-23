@@ -22,9 +22,13 @@ end
 
 
 for i in num1..num2
-  p kaprekar(i)
+  s = kaprekar(i)
+  if( s!= nil)
+
+   str = str.to_s + s.to_s
+  end
 
 end
 
-
+p str
 
