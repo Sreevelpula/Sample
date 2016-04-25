@@ -14,7 +14,7 @@ def swap(array)
     end
     i = i+1
   end
-  return array.reverse
+  return array
 end
 
 p swap(input_array)
